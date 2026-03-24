@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.team-container {
+    text-align: center;
+}
+
+.profile-card {
+    background-color: rgb(228, 223, 214);
+    height: 150px;
+    width: 200px;
+    margin-top: 100px;
+    margin-right: 50px;
+    padding: 20px;
+    display: inline-block;
+    border: 1px solid rgba(138, 138, 138, 0.116);
+    border-radius: 10px;
+}
+
+.name {
+    color: rgb(86, 183, 216);
+}
