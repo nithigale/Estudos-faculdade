@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+:root {
+    --cor-fundo: #000000ef;
+    --cor-texto: #ffffff;
+    --cor-rosa: #ff4d88b9;
+    --cor-rosa-hover: #c2114c23;
+    --cor-detalhe: #ffc0cb;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0px 10px;
+    border-radius: 10px;
+    border: var(--cor-rosa) solid 1px;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: var(--cor-rosa-hover);
+}
+
+h2 {
+    font-size: 16px;
+    color: var(--cor-rosa);
+}
